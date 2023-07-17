@@ -37,29 +37,23 @@ cd responsibleai-toolbox-diabetes-hospital-readmission
 conda env create -n py39_env --file libs/env.yaml
 ```
 
-2. Confirm that the conda environment was created from the command prompt:
+2. Confirm that the conda environment was created from the command prompt, type the following command:
 
-![Create env](img/tutorial/00-vscode-create-env.png)
+```shell
+conda env list
+```
 
-6. Select the conda environment by clicking on the "Select Kernel" icon on the top right-hand side of the notebook.  This will open a search box where you can select a kernel.
+3. Set the conda environment to run the notebook by typing the following command:
 
-![Select kernel](./img/tutorial/00-vscode-selectkernel.png)
-
-7. On the kernel search box, click on the "Select Another Kernel" option.  Then, select the "Python Environments..." option.
-
-![Python Environments](/img/tutorial/00-vscode-pythonEnvironments.png)
-
-8. On the "Select Python Environment" dialog, select the "py39_env" environment that you created earlier.  
-
-![Select Environment](/img/tutorial/00-vscode-selectEnv.png)
+```shell
+conda activate py39_env
+```
 
 ## Run the notebook
 
-1. Click on the "Run All Cells" button to run the notebook.  This will take 5 minutes to complete.
+1. Open the *diabetes-hospital-readmission-classification.ipnb* and run the notebook.  This will take 5 minutes to complete.
 
-2. After the notebook has completed running, a link to the generated Responsible AI dashboard will be displayed.  Click on the link to launch a browser window with the dashboard.
-
-![RAI dashboard link](/img/tutorial/00-vscode-raidashboardlink.png "RAI dashboard link")	
+3. After the notebook has completed running, a link to the generated Responsible AI dashboard will be displayed.  Click on the *"http://localhost:5000"* link to launch a browser window with the dashboard.
 
 3. Terrific...you're ready to start using the dashboard!  
 
