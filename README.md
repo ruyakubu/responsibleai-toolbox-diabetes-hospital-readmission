@@ -40,7 +40,7 @@ conda env create -n py39_env --file libs/env.yaml
 2. Confirm that the conda environment was created from the command prompt, type the following command:
 
 ```shell
-conda env list
+conda info --envs
 ```
 
 3. Set the conda environment to run the notebook by typing the following command:
