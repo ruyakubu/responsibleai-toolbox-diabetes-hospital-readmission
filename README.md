@@ -1,5 +1,5 @@
 # Getting Started
-Using the RAI toolbox to debug a diabetes hospital readmission classification model.  To use the open-source Responsible AI Toolbox, you'll need a notebook to successfully complete this workshop.  We'll be using Visual Studio code in this lab. 
+Using the RAI toolbox to debug a diabetes hospital readmission classification model.  To use the open-source Responsible AI Toolbox, you'll need a notebook to successfully complete this workshop.  Your use a notebook of your choice in this lab (e.g. Visual Studio code or Jupyter notebook). 
 
 
 ## Python and Conda environment
