@@ -56,8 +56,3 @@ conda activate py39_env
 3. After the notebook has completed running, a link to the generated Responsible AI dashboard will be displayed.  Click on the *"http://localhost:5000"* link to launch a browser window with the dashboard.
 
 3. Terrific...you're ready to start using the dashboard!  
-
-![RAI dashboard](/img/tutorial/00-vscode-rai-page.png "RAI dashboard")	
-
-
-
