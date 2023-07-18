@@ -18,7 +18,6 @@
 			"settings": {
 				//"python.defaultInterpreterPath": "/home/vscode/venv/bin/python",  /opt/conda/envs/demo
                 "python.defaultInterpreterPath": "/opt/conda/envs/responsibleai-env"
-
 			},
 
 			// Add the IDs of extensions you want installed when the container is created.

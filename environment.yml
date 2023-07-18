@@ -1,10 +1,9 @@
 name: responsibleai-env
 channels:
   - conda-forge
-  - defaults
-  - anaconda
 dependencies:
   - python=3.9
+  - ipykernel # required for jupyter notebook in VS Code
   - pip
   - pip:
     - dice-ml>=0.9,<0.10
