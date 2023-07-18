@@ -16,15 +16,18 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
-				//"python.defaultInterpreterPath": "/home/vscode/venv/bin/python",  /opt/conda/envs/demo
                 "python.defaultInterpreterPath": "/opt/conda/envs/responsibleai-env"
 			},
 
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-python.python",
-				"donjayamanne.python-extension-pack"
-			]
+				"ms-python.pylance",
+				"donjayamanne.python-extension-pack",
+                "ms-toolsai.jupyter",
+				"GitHub.codespaces",
+				"ms-azuretools.vscode-docker",
+				"DavidAnson.vscode-markdownlint"			]
 		}
 	}
 
